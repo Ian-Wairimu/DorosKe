@@ -7,6 +7,7 @@ import 'swiper/css/pagination';
 import './style/main.css';
 import Nav from "../navigation/Nav";
 import Search from "./Search";
+import Header from "./Header";
 
 const Main = () => {
     return (
@@ -38,6 +39,7 @@ const Main = () => {
                   </Swiper>
               </header>
           </div>
+          <Header />
       </>
     );
 }
